@@ -1,0 +1,10 @@
+numpy
+Pillow
+PyYAML
+tqdm
+opencv-python
+ultralytics
+matplotlib
+torch
+torchvision
+sahi
