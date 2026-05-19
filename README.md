@@ -1,4 +1,10 @@
-### First run
+# Adaptive Slicing for Small Object Detection in High-Resolution Images
 
-python .\scripts\download.py
-python .\scripts\prepare_data.py
+## First Run
+
+Follow these steps to get started:
+
+```bash
+python scripts/download.py
+python scripts/prepare_data.py
+```
