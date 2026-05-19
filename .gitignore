@@ -135,7 +135,7 @@ environment.yml
 *.yml.lock
 
 # Data directories (YOLO/VisDrone dataset)
-data/
+/data/
 
 # Model files (large files)
 *.pt
