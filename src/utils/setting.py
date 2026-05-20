@@ -10,6 +10,7 @@ YOLO_CONFIG = ROOT / 'configs' / 'yolo.yaml'
 VISDRONE_CONFIG = ROOT / 'configs' / 'visdrone.yaml'
 
 DETECT_FULL_IMAGE_DIR = ROOT / 'data' / 'cache' / 'detect_full_image'
+HARD_REGION_DIR = ROOT / 'data' / 'cache' / 'hard_region'
 
 TRAIN_IMAGES_DIR = PROCESSED_DATA_DIR / 'images' / 'train'
 VAL_IMAGES_DIR = PROCESSED_DATA_DIR / 'images' / 'val'
