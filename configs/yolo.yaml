@@ -4,4 +4,4 @@ conf_threshold: 0.25
 iou_threshold: 0.5
 image_size: 640
 feature_dim: 0
-
+CLASS_AWARE: false
