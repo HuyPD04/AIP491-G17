@@ -1,35 +1,93 @@
-image_dir: data/processed/images/train
-hard_region_dir: data/cache/hard_region
-prediction_dir: data/cache/detect_full_image
-checkpoint_path: runs/rl_policy.pt
+# Environment/state settings aligned with the main project.
+T_max: 20
+max_steps: 12
+max_slices: 8
+num_slices: 8
 
-crop_size: 320
+history_map_size: 16
 history_shape: [16, 16]
-feature_grid_shape: [4, 4]
-feature_dim: 16
+use_detection_map: true
+detection_map_channels:
+  - score
+  - low_conf
+  - small
 
-use_zoom: false
-move_ratio: 0.2
-zoom_ratio: 0.8
-min_crop_size: 160
-max_steps: 7
-num_slices: 4
+roi_mode: adaptive
+initial_roi: center_fixed
+fixed_roi_width: 320
+fixed_roi_height: 320
+crop_size: 320
 
-epochs: 3
-gamma: 0.9
-lr: 0.001
-hidden_dim: 128
-epsilon_start: 1.0
-epsilon_end: 0.1
-epsilon_decay: 0.999
-terminal_reward_only: true
-guided_exploration: true
+enabled_actions:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 
-area_penalty: 1.0
-repeat_penalty: 0.5
-max_slice_overlap: 0.6
-empty_crop_penalty: 0.2
+use_zoom: true
+move_ratio: 0.3
+zoom_in_ratio: 0.7
+zoom_out_ratio: 1.3
+zoom_ratio: 0.7
+
+min_roi_width: 64
+min_roi_height: 64
+min_crop_size: 64
+max_roi_area_ratio: 1.0
+
+duplicate_iou_threshold: 0.8
+max_slice_overlap: 0.8
+full_pred_overlap_min_score: 0.4
+full_pred_roi_coverage_threshold: 0.15
+object_containment_threshold: 0.5
 min_coverage: 0.5
 
+small_object_mode: coco
+small_area_threshold: 0.001
+match_iou_threshold: 0.5
+low_conf_threshold: 0.4
+
+lambda_area: 0.5
+lambda_duplicate: 0.3
+lambda_full_pred_overlap: 0.1
+lambda_step: 0.01
+lambda_invalid: 1.0
+scale_positive_by_area: true
+positive_area_power: 2.0
+min_positive_area_scale: 0.05
+
+state_feature_dim: 0
+feature_dim: 0
+hidden_dim: 512
+
+# DQN training settings.
+num_episodes: 10000
+epochs:
+sample_limit: 
+train_only_hard: true
+batch_size: 64
+replay_buffer_size: 100000
+gamma: 0.99
+lr: 0.0001
+learning_rate: 0.0001
+epsilon_start: 1.0
+epsilon_end: 0.05
+epsilon_decay_steps: 50000
+guided_prob_start: 0.4
+guided_prob_end: 0.1
+guided_decay_steps: 50000
+target_update_interval: 1000
+save_interval: 5000
+terminal_reward_only: false
+guided_exploration: true
+seed: 42
 device: cpu
-sample_limit:
+
+# Inference/postprocess settings.
+return_all_rois: false
+nms_iou_threshold: 0.5
+diou_threshold: 0.6
+containment_threshold: 0.85

@@ -4,4 +4,5 @@ conf_threshold: 0.25
 iou_threshold: 0.5
 image_size: 640
 feature_dim: 0
+class_map_mode: coco_to_visdrone
 CLASS_AWARE: false

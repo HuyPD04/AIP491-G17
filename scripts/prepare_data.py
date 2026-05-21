@@ -16,21 +16,21 @@ def main():
         processed_dir=Path(PROCESSED_DATA_DIR),
         split="train",
         source_name="VisDrone2019-DET-train",
-        move_images=True,
+        move_images=False,
     )
     visdrone2yolo(
         root_dir=Path(RAW_DATA_DIR),
         processed_dir=Path(PROCESSED_DATA_DIR),
         split="val",
         source_name="VisDrone2019-DET-val",
-        move_images=True,
+        move_images=False,
     )
     visdrone2yolo(
         root_dir=Path(RAW_DATA_DIR),
         processed_dir=Path(PROCESSED_DATA_DIR),
         split="test",
         source_name="VisDrone2019-DET-test-dev",
-        move_images=True,
+        move_images=False,
     )
 
 if __name__ == "__main__":

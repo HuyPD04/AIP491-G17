@@ -11,9 +11,15 @@ import shutil
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
-from src.utils.setting import RAW_DATA_DIR, VISDRONE_CONFIG, PROCESSED_DATA_DIR
+from src.utils.setting import (
+    DETECT_FULL_IMAGE_DIR,
+    HARD_REGION_DIR,
+    PROCESSED_DATA_DIR,
+    RAW_DATA_DIR,
+    VISDRONE_CONFIG,
+)
 from src.utils.config import load_config
-
+from src.detectors.yolo import yolo_to_xyxy
 VISDRONE_CLASSES = load_config(VISDRONE_CONFIG)["names"]
 
 @dataclass(frozen=True)
@@ -60,12 +66,19 @@ def parse_visdrone_annotation(
         truncation = int(row[6])
         occlusion = int(row[7])
 
-        if score == 0: 
+        if score == 0 or category_id <= 0 or category_id not in VISDRONE_CLASSES:
             ignored_regions += 1
             continue
 
         class_id = category_id - 1
         class_name = VISDRONE_CLASSES.get(category_id, f"class_{category_id}")
+        x = max(0.0, min(float(width), x))
+        y = max(0.0, min(float(height), y))
+        w = max(0.0, min(float(width) - x, w))
+        h = max(0.0, min(float(height) - y, h))
+        if w <= 0.0 or h <= 0.0:
+            ignored_regions += 1
+            continue
 
         obj = VisDroneObject(
             object_id=idx,
@@ -152,3 +165,66 @@ def visdrone2yolo(
         annotation = parse_visdrone_annotation(annotation_path, image_path)
         label_path = labels_dir / annotation_path.name
         dump_yolo_labels(annotation, label_path)
+
+
+def load_yolo_labels(label_path: str | Path) -> list[VisDroneObject]:
+    label_path = Path(label_path)
+    if not label_path.exists():
+        return []
+    objects: list[VisDroneObject] = []
+    for idx, line in enumerate(label_path.read_text(encoding="utf-8").splitlines()):
+        if not line.strip():
+            continue
+        class_id_s, xc_s, yc_s, bw_s, bh_s = line.split()[:5]
+        class_id = int(class_id_s)
+        class_name = VISDRONE_CLASSES.get(class_id + 1, f"class_{class_id}")
+        objects.append(
+            VisDroneObject(
+                object_id=idx,
+                class_id=class_id,
+                class_name=class_name,
+                bbox=(float(xc_s), float(yc_s), float(bw_s), float(bh_s)),
+            )
+        )
+    return objects
+
+def load_yolo_label_file(label_path: str | Path, image_size: tuple[int, int]) -> list[dict[str, object]]:
+    objects = []
+    for obj in load_yolo_labels(label_path):
+        x_center, y_center, box_width, box_height = obj.bbox
+        objects.append(
+            {
+                "id": obj.object_id,
+                "class_id": obj.class_id,
+                "class_name": obj.class_name,
+                "bbox_xyxy": yolo_to_xyxy(x_center, y_center, box_width, box_height, image_size),
+                "hard_score": 1.0,
+            }
+        )
+    return objects
+
+def build_processed_index(
+    processed_dir: str | Path = PROCESSED_DATA_DIR,
+    split: str = "train",
+) -> list[dict[str, object]]:
+    processed_dir = Path(processed_dir)
+    image_dir = processed_dir / "images" / split
+    label_dir = processed_dir / "labels" / split
+    if not image_dir.exists():
+        return []
+    samples: list[dict[str, object]] = []
+    for image_path in sorted(image_dir.glob("*.jpg")):
+        with Image.open(image_path) as image:
+            width, height = image.size
+        samples.append(
+            {
+                "image_id": image_path.stem,
+                "image_path": image_path.as_posix(),
+                "label_path": (label_dir / f"{image_path.stem}.txt").as_posix(),
+                "prediction_path": (DETECT_FULL_IMAGE_DIR / f"{image_path.stem}.txt").as_posix(),
+                "hard_region_path": (HARD_REGION_DIR / f"{image_path.stem}.txt").as_posix(),
+                "width": width,
+                "height": height,
+            }
+        )
+    return samples
