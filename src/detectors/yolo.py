@@ -7,6 +7,16 @@ from PIL import Image
 
 ImageSize = tuple[int, int]  
 
+
+COCO_TO_VISDRONE = {
+    0: 0,  # person -> pedestrian
+    1: 2,  # bicycle
+    2: 3,  # car
+    3: 9,  # motorcycle -> motor
+    5: 8,  # bus
+    7: 5,  # truck
+}
+
 class YOLODetector:
     def __init__(
         self,
@@ -15,6 +25,7 @@ class YOLODetector:
         iou_threshold: float = 0.5,
         device: str = "cpu",
         img_size: int = 640,
+        class_map_mode: str | None = None,
     ):
         self.model_path = model_path
         self.model = YOLO(model_path)
@@ -22,6 +33,7 @@ class YOLODetector:
         self.iou_threshold = iou_threshold
         self.device = device
         self.img_size = img_size
+        self.class_map_mode = class_map_mode
 
     def _predict(self, image):
         results = self.model.predict(
@@ -41,6 +53,7 @@ class YOLODetector:
         xyxy = boxes.xyxy.detach().cpu().numpy().astype(np.float32)
         scores = boxes.conf.detach().cpu().numpy().astype(np.float32)
         classes = boxes.cls.detach().cpu().numpy().astype(np.int64)
+        xyxy, scores, classes = self._map_classes(xyxy, scores, classes)
         return {
             "boxes": xyxy,
             "scores": scores,
@@ -61,7 +74,34 @@ class YOLODetector:
         return self._predict(crop)
     
     def extract_features(self, image):
-        pass
+        return np.empty((0,), dtype=np.float32)
+
+    def _map_classes(self, boxes, scores, classes):
+        if self.class_map_mode in (None, "native", "none"):
+            return boxes, scores, classes
+        if self.class_map_mode != "coco_to_visdrone":
+            raise ValueError(f"Unknown class_map_mode: {self.class_map_mode}")
+        mapped_boxes = []
+        mapped_scores = []
+        mapped_classes = []
+        for box, score, class_id in zip(boxes, scores, classes):
+            class_id = int(class_id)
+            if class_id not in COCO_TO_VISDRONE:
+                continue
+            mapped_boxes.append(box)
+            mapped_scores.append(score)
+            mapped_classes.append(COCO_TO_VISDRONE[class_id])
+        if not mapped_boxes:
+            return (
+                np.empty((0, 4), dtype=np.float32),
+                np.empty((0,), dtype=np.float32),
+                np.empty((0,), dtype=np.int64),
+            )
+        return (
+            np.asarray(mapped_boxes, dtype=np.float32),
+            np.asarray(mapped_scores, dtype=np.float32),
+            np.asarray(mapped_classes, dtype=np.int64),
+        )
 
 def yolo_to_xyxy(
     x_center: float,
@@ -75,7 +115,7 @@ def yolo_to_xyxy(
     ymin = (y_center - box_height / 2) * image_height
     xmax = (x_center + box_width / 2) * image_width
     ymax = (y_center + box_height / 2) * image_height
-    return xmin, ymin, xmax, ymax
+    return [xmin, ymin, xmax, ymax]
 
 def load_ground_truth(
     label_path: Path,

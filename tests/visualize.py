@@ -25,8 +25,8 @@ def visualize_bbox(image_path, bbox_left, bbox_top, bbox_width, bbox_height):
     plt.show()
 
 if __name__ == "__main__":
-    sample_image_path = r"C:\Users\Admin\OneDrive\Desktop\DOAN\backup\data\raw\VisDrone2019-DET-train\images\0000002_00005_d_0000014.jpg" 
+    sample_image_path = r"C:\Users\Admin\OneDrive\Desktop\DOAN\backup\data\processed\images\test\0000006_00159_d_0000001.jpg" 
     
-    b_left, b_top, b_width, b_height = 684,8,273,116
+    b_left, b_top, b_width, b_height = 685,463,110,65
     
     visualize_bbox(sample_image_path, b_left, b_top, b_width, b_height)
