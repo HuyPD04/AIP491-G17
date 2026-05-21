@@ -16,7 +16,7 @@ from src.utils.setting import (
     TRAIN_LABELS_DIR,
     YOLO_CONFIG
 )
-from src.data.visdrone import load_ground_truth, load_predictions
+from src.detectors.yolo import load_ground_truth, load_predictions
 from src.utils.bbox import iou, is_detected
 from src.utils.config import load_config
 

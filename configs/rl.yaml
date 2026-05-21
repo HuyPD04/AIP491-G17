@@ -1,0 +1,35 @@
+image_dir: data/processed/images/train
+hard_region_dir: data/cache/hard_region
+prediction_dir: data/cache/detect_full_image
+checkpoint_path: runs/rl_policy.pt
+
+crop_size: 320
+history_shape: [16, 16]
+feature_grid_shape: [4, 4]
+feature_dim: 16
+
+use_zoom: false
+move_ratio: 0.2
+zoom_ratio: 0.8
+min_crop_size: 160
+max_steps: 7
+num_slices: 4
+
+epochs: 3
+gamma: 0.9
+lr: 0.001
+hidden_dim: 128
+epsilon_start: 1.0
+epsilon_end: 0.1
+epsilon_decay: 0.999
+terminal_reward_only: true
+guided_exploration: true
+
+area_penalty: 1.0
+repeat_penalty: 0.5
+max_slice_overlap: 0.6
+empty_crop_penalty: 0.2
+min_coverage: 0.5
+
+device: cpu
+sample_limit:
