@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "D:\\AIP491\\AIP491-G17\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "de11d7a16aa240962045beef30cec02bc64bd36b72d7bfac5784cf00e05c4bd8",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}
