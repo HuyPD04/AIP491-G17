@@ -24,7 +24,12 @@ From this folder:
 ```bash
 python run_eda.py
 python run_eda.py --splits val
+python run_data_report.py --splits train val test
 python run_baseline.py --model yolo11s.pt --split val --sample-limit 50
+python run_baseline.py --model yolo11s.pt --split test --class-agnostic
+python run_test_analysis.py --split test
+python run_prepare_sahi_predata.py --split test
+python run_sahi_baseline.py --model yolo11s.pt --split test --device cpu
 python run_roi_analysis.py
 ```
 
@@ -50,11 +55,7 @@ python run_baseline.py --model yolo11s.pt --split val --class-agnostic
 
 ## Outputs
 
-- `outputs/dataset_stats.json`
-- `outputs/dataset_validation.json`
-- `outputs/eda_statistics.json`
-- `outputs/baseline_metrics.json`
-- `outputs/roi_metrics.json`
-- `eda/*.png`
-- `baseline/*.png`
-- `roi_analysis/*.png`
+- `outputs/final/`: core report files and final figures.
+- `outputs/detailed/`: false positives, false negatives, latency, and detailed per-image metadata.
+- `outputs/heavy/`: large prediction/pre-data/oracle files.
+- `outputs/archive/`: older validation-only and auxiliary EDA outputs.

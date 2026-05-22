@@ -1,0 +1,50 @@
+{
+  "overall": {
+    "tp": 21793,
+    "fp": 11593,
+    "fn": 53309,
+    "precision": 0.6527586413466723,
+    "recall": 0.2901786903145056,
+    "mAP50_proxy": 0.18941664763745344
+  },
+  "by_size": {
+    "small": {
+      "tp": 8048,
+      "fp": 3243,
+      "fn": 42789,
+      "precision": 0.712780090337437,
+      "recall": 0.15830989240120386,
+      "AP50_proxy": 0.11849683910387729
+    },
+    "medium": {
+      "tp": 11988,
+      "fp": 5343,
+      "fn": 9868,
+      "precision": 0.6917084992210489,
+      "recall": 0.5484992679355783,
+      "AP50_proxy": 0.3733906430443903
+    },
+    "large": {
+      "tp": 1757,
+      "fp": 3007,
+      "fn": 652,
+      "precision": 0.3688077246011755,
+      "recall": 0.7293482772934827,
+      "AP50_proxy": 0.25506865509646676
+    }
+  },
+  "class_agnostic": true,
+  "sahi_config": {
+    "model": "D:\\AIP491\\AIP491-G17\\EDA Data\\adaptive_rl_sahi\\baseline\\yolo11s.pt",
+    "split": "test",
+    "conf": 0.25,
+    "device": "0",
+    "slice_height": 512,
+    "slice_width": 512,
+    "overlap": 0.2,
+    "postprocess_type": "GREEDYNMM",
+    "postprocess_match_metric": "IOS",
+    "postprocess_match_threshold": 0.5,
+    "sample_limit": null
+  }
+}
