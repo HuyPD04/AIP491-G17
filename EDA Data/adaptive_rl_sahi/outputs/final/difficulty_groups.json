@@ -1,0 +1,4152 @@
+{
+  "high_density": [
+    {
+      "image_id": "0000059_01886_d_0000114",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000059_01886_d_0000114.jpg",
+      "total_labels": 902,
+      "small_labels": 902,
+      "small_ratio": 1.0,
+      "border_object_count": 87,
+      "border_object_ratio": 0.09645232815964523,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000137_02220_d_0000163",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000137_02220_d_0000163.jpg",
+      "total_labels": 512,
+      "small_labels": 335,
+      "small_ratio": 0.654296875,
+      "border_object_count": 14,
+      "border_object_ratio": 0.02734375,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000143_01681_d_0000056",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000143_01681_d_0000056.jpg",
+      "total_labels": 462,
+      "small_labels": 380,
+      "small_ratio": 0.8225108225108225,
+      "border_object_count": 8,
+      "border_object_ratio": 0.017316017316017316,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000207",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000207.jpg",
+      "total_labels": 461,
+      "small_labels": 451,
+      "small_ratio": 0.9783080260303688,
+      "border_object_count": 51,
+      "border_object_ratio": 0.11062906724511931,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000126_11844_d_0000130",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000126_11844_d_0000130.jpg",
+      "total_labels": 431,
+      "small_labels": 378,
+      "small_ratio": 0.877030162412993,
+      "border_object_count": 20,
+      "border_object_ratio": 0.04640371229698376,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000208",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000208.jpg",
+      "total_labels": 400,
+      "small_labels": 386,
+      "small_ratio": 0.965,
+      "border_object_count": 36,
+      "border_object_ratio": 0.09,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000142_04458_d_0000045",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000142_04458_d_0000045.jpg",
+      "total_labels": 370,
+      "small_labels": 320,
+      "small_ratio": 0.8648648648648649,
+      "border_object_count": 5,
+      "border_object_ratio": 0.013513513513513514,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000210",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000210.jpg",
+      "total_labels": 369,
+      "small_labels": 342,
+      "small_ratio": 0.926829268292683,
+      "border_object_count": 47,
+      "border_object_ratio": 0.12737127371273713,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999943_00000_d_0000049",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999943_00000_d_0000049.jpg",
+      "total_labels": 351,
+      "small_labels": 317,
+      "small_ratio": 0.9031339031339032,
+      "border_object_count": 20,
+      "border_object_ratio": 0.05698005698005698,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000135_01327_d_0000151",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000135_01327_d_0000151.jpg",
+      "total_labels": 348,
+      "small_labels": 214,
+      "small_ratio": 0.6149425287356322,
+      "border_object_count": 16,
+      "border_object_ratio": 0.04597701149425287,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000137_01824_d_0000162",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000137_01824_d_0000162.jpg",
+      "total_labels": 346,
+      "small_labels": 228,
+      "small_ratio": 0.6589595375722543,
+      "border_object_count": 9,
+      "border_object_ratio": 0.02601156069364162,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000143_00881_d_0000052",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000143_00881_d_0000052.jpg",
+      "total_labels": 342,
+      "small_labels": 295,
+      "small_ratio": 0.8625730994152047,
+      "border_object_count": 10,
+      "border_object_ratio": 0.029239766081871343,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000217",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000217.jpg",
+      "total_labels": 333,
+      "small_labels": 308,
+      "small_ratio": 0.924924924924925,
+      "border_object_count": 26,
+      "border_object_ratio": 0.07807807807807808,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000213",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000213.jpg",
+      "total_labels": 329,
+      "small_labels": 290,
+      "small_ratio": 0.8814589665653495,
+      "border_object_count": 35,
+      "border_object_ratio": 0.10638297872340426,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000212",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000212.jpg",
+      "total_labels": 319,
+      "small_labels": 297,
+      "small_ratio": 0.9310344827586207,
+      "border_object_count": 36,
+      "border_object_ratio": 0.11285266457680251,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000295_02400_d_0000033",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000295_02400_d_0000033.jpg",
+      "total_labels": 317,
+      "small_labels": 280,
+      "small_ratio": 0.8832807570977917,
+      "border_object_count": 25,
+      "border_object_ratio": 0.07886435331230283,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000295_02000_d_0000031",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000295_02000_d_0000031.jpg",
+      "total_labels": 311,
+      "small_labels": 261,
+      "small_ratio": 0.8392282958199357,
+      "border_object_count": 20,
+      "border_object_ratio": 0.06430868167202572,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000142_04058_d_0000043",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000142_04058_d_0000043.jpg",
+      "total_labels": 306,
+      "small_labels": 268,
+      "small_ratio": 0.8758169934640523,
+      "border_object_count": 6,
+      "border_object_ratio": 0.0196078431372549,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000295_01800_d_0000030",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000295_01800_d_0000030.jpg",
+      "total_labels": 306,
+      "small_labels": 269,
+      "small_ratio": 0.8790849673202614,
+      "border_object_count": 5,
+      "border_object_ratio": 0.016339869281045753,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000140_01877_d_0000003",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000140_01877_d_0000003.jpg",
+      "total_labels": 305,
+      "small_labels": 222,
+      "small_ratio": 0.7278688524590164,
+      "border_object_count": 12,
+      "border_object_ratio": 0.03934426229508197,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000141_02251_d_0000019",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000141_02251_d_0000019.jpg",
+      "total_labels": 304,
+      "small_labels": 240,
+      "small_ratio": 0.7894736842105263,
+      "border_object_count": 5,
+      "border_object_ratio": 0.01644736842105263,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000205",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000205.jpg",
+      "total_labels": 303,
+      "small_labels": 297,
+      "small_ratio": 0.9801980198019802,
+      "border_object_count": 32,
+      "border_object_ratio": 0.10561056105610561,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000189",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000189.jpg",
+      "total_labels": 296,
+      "small_labels": 295,
+      "small_ratio": 0.9966216216216216,
+      "border_object_count": 17,
+      "border_object_ratio": 0.057432432432432436,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000063_00500_d_0000001",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\0000063_00500_d_0000001.jpg",
+      "total_labels": 293,
+      "small_labels": 284,
+      "small_ratio": 0.9692832764505119,
+      "border_object_count": 42,
+      "border_object_ratio": 0.14334470989761092,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999937_00000_d_0000016",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999937_00000_d_0000016.jpg",
+      "total_labels": 289,
+      "small_labels": 221,
+      "small_ratio": 0.7647058823529411,
+      "border_object_count": 21,
+      "border_object_ratio": 0.0726643598615917,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000211",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000211.jpg",
+      "total_labels": 286,
+      "small_labels": 268,
+      "small_ratio": 0.9370629370629371,
+      "border_object_count": 41,
+      "border_object_ratio": 0.14335664335664336,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000344_02549_d_0000306",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000344_02549_d_0000306.jpg",
+      "total_labels": 285,
+      "small_labels": 250,
+      "small_ratio": 0.8771929824561403,
+      "border_object_count": 30,
+      "border_object_ratio": 0.10526315789473684,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "people",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000143_00281_d_0000049",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000143_00281_d_0000049.jpg",
+      "total_labels": 284,
+      "small_labels": 261,
+      "small_ratio": 0.9190140845070423,
+      "border_object_count": 8,
+      "border_object_ratio": 0.028169014084507043,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000216",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000216.jpg",
+      "total_labels": 284,
+      "small_labels": 263,
+      "small_ratio": 0.926056338028169,
+      "border_object_count": 18,
+      "border_object_ratio": 0.06338028169014084,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000126_02076_d_0000125",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000126_02076_d_0000125.jpg",
+      "total_labels": 280,
+      "small_labels": 189,
+      "small_ratio": 0.675,
+      "border_object_count": 12,
+      "border_object_ratio": 0.04285714285714286,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000066_01097_d_0000002",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\0000066_01097_d_0000002.jpg",
+      "total_labels": 275,
+      "small_labels": 249,
+      "small_ratio": 0.9054545454545454,
+      "border_object_count": 13,
+      "border_object_ratio": 0.04727272727272727,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000142_04858_d_0000047",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000142_04858_d_0000047.jpg",
+      "total_labels": 274,
+      "small_labels": 187,
+      "small_ratio": 0.6824817518248175,
+      "border_object_count": 9,
+      "border_object_ratio": 0.032846715328467155,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999955_00000_d_0000224",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999955_00000_d_0000224.jpg",
+      "total_labels": 274,
+      "small_labels": 264,
+      "small_ratio": 0.9635036496350365,
+      "border_object_count": 16,
+      "border_object_ratio": 0.058394160583941604,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999943_00000_d_0000048",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999943_00000_d_0000048.jpg",
+      "total_labels": 266,
+      "small_labels": 230,
+      "small_ratio": 0.8646616541353384,
+      "border_object_count": 35,
+      "border_object_ratio": 0.13157894736842105,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000126_00054_d_0000124",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000126_00054_d_0000124.jpg",
+      "total_labels": 260,
+      "small_labels": 158,
+      "small_ratio": 0.6076923076923076,
+      "border_object_count": 14,
+      "border_object_ratio": 0.05384615384615385,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000140_02677_d_0000007",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000140_02677_d_0000007.jpg",
+      "total_labels": 259,
+      "small_labels": 185,
+      "small_ratio": 0.7142857142857143,
+      "border_object_count": 13,
+      "border_object_ratio": 0.05019305019305019,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000125_00084_d_0000122",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000125_00084_d_0000122.jpg",
+      "total_labels": 256,
+      "small_labels": 191,
+      "small_ratio": 0.74609375,
+      "border_object_count": 14,
+      "border_object_ratio": 0.0546875,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bus"
+      ]
+    },
+    {
+      "image_id": "9999945_00000_d_0000119",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999945_00000_d_0000119.jpg",
+      "total_labels": 255,
+      "small_labels": 237,
+      "small_ratio": 0.9294117647058824,
+      "border_object_count": 34,
+      "border_object_ratio": 0.13333333333333333,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000218",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000218.jpg",
+      "total_labels": 255,
+      "small_labels": 226,
+      "small_ratio": 0.8862745098039215,
+      "border_object_count": 27,
+      "border_object_ratio": 0.10588235294117647,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000142_04658_d_0000046",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000142_04658_d_0000046.jpg",
+      "total_labels": 254,
+      "small_labels": 150,
+      "small_ratio": 0.5905511811023622,
+      "border_object_count": 17,
+      "border_object_ratio": 0.06692913385826772,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000143_00081_d_0000048",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000143_00081_d_0000048.jpg",
+      "total_labels": 253,
+      "small_labels": 229,
+      "small_ratio": 0.9051383399209486,
+      "border_object_count": 3,
+      "border_object_ratio": 0.011857707509881422,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000297_00001_d_0000057",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000297_00001_d_0000057.jpg",
+      "total_labels": 252,
+      "small_labels": 203,
+      "small_ratio": 0.8055555555555556,
+      "border_object_count": 10,
+      "border_object_ratio": 0.03968253968253968,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999937_00000_d_0000003",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999937_00000_d_0000003.jpg",
+      "total_labels": 251,
+      "small_labels": 218,
+      "small_ratio": 0.8685258964143426,
+      "border_object_count": 16,
+      "border_object_ratio": 0.06374501992031872,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "9999994_00000_d_0000100",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999994_00000_d_0000100.jpg",
+      "total_labels": 251,
+      "small_labels": 206,
+      "small_ratio": 0.8207171314741036,
+      "border_object_count": 5,
+      "border_object_ratio": 0.0199203187250996,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000295_01000_d_0000026",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000295_01000_d_0000026.jpg",
+      "total_labels": 251,
+      "small_labels": 226,
+      "small_ratio": 0.900398406374502,
+      "border_object_count": 8,
+      "border_object_ratio": 0.03187250996015936,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999947_00000_d_0000021",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999947_00000_d_0000021.jpg",
+      "total_labels": 249,
+      "small_labels": 215,
+      "small_ratio": 0.8634538152610441,
+      "border_object_count": 10,
+      "border_object_ratio": 0.040160642570281124,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "motor",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000140_02077_d_0000004",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000140_02077_d_0000004.jpg",
+      "total_labels": 246,
+      "small_labels": 169,
+      "small_ratio": 0.6869918699186992,
+      "border_object_count": 8,
+      "border_object_ratio": 0.032520325203252036,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000141_01851_d_0000017",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000141_01851_d_0000017.jpg",
+      "total_labels": 245,
+      "small_labels": 174,
+      "small_ratio": 0.710204081632653,
+      "border_object_count": 8,
+      "border_object_ratio": 0.0326530612244898,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bus"
+      ]
+    },
+    {
+      "image_id": "0000303_00801_d_0000187",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000303_00801_d_0000187.jpg",
+      "total_labels": 245,
+      "small_labels": 215,
+      "small_ratio": 0.8775510204081632,
+      "border_object_count": 33,
+      "border_object_ratio": 0.1346938775510204,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "motor",
+        "pedestrian",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999994_00000_d_0000098",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999994_00000_d_0000098.jpg",
+      "total_labels": 244,
+      "small_labels": 195,
+      "small_ratio": 0.7991803278688525,
+      "border_object_count": 9,
+      "border_object_ratio": 0.036885245901639344,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    }
+  ],
+  "many_small_objects": [
+    {
+      "image_id": "0000059_01886_d_0000114",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000059_01886_d_0000114.jpg",
+      "total_labels": 902,
+      "small_labels": 902,
+      "small_ratio": 1.0,
+      "border_object_count": 87,
+      "border_object_ratio": 0.09645232815964523,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000207",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000207.jpg",
+      "total_labels": 461,
+      "small_labels": 451,
+      "small_ratio": 0.9783080260303688,
+      "border_object_count": 51,
+      "border_object_ratio": 0.11062906724511931,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000208",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000208.jpg",
+      "total_labels": 400,
+      "small_labels": 386,
+      "small_ratio": 0.965,
+      "border_object_count": 36,
+      "border_object_ratio": 0.09,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000143_01681_d_0000056",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000143_01681_d_0000056.jpg",
+      "total_labels": 462,
+      "small_labels": 380,
+      "small_ratio": 0.8225108225108225,
+      "border_object_count": 8,
+      "border_object_ratio": 0.017316017316017316,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000126_11844_d_0000130",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000126_11844_d_0000130.jpg",
+      "total_labels": 431,
+      "small_labels": 378,
+      "small_ratio": 0.877030162412993,
+      "border_object_count": 20,
+      "border_object_ratio": 0.04640371229698376,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000210",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000210.jpg",
+      "total_labels": 369,
+      "small_labels": 342,
+      "small_ratio": 0.926829268292683,
+      "border_object_count": 47,
+      "border_object_ratio": 0.12737127371273713,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000137_02220_d_0000163",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000137_02220_d_0000163.jpg",
+      "total_labels": 512,
+      "small_labels": 335,
+      "small_ratio": 0.654296875,
+      "border_object_count": 14,
+      "border_object_ratio": 0.02734375,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000142_04458_d_0000045",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000142_04458_d_0000045.jpg",
+      "total_labels": 370,
+      "small_labels": 320,
+      "small_ratio": 0.8648648648648649,
+      "border_object_count": 5,
+      "border_object_ratio": 0.013513513513513514,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999943_00000_d_0000049",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999943_00000_d_0000049.jpg",
+      "total_labels": 351,
+      "small_labels": 317,
+      "small_ratio": 0.9031339031339032,
+      "border_object_count": 20,
+      "border_object_ratio": 0.05698005698005698,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000217",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000217.jpg",
+      "total_labels": 333,
+      "small_labels": 308,
+      "small_ratio": 0.924924924924925,
+      "border_object_count": 26,
+      "border_object_ratio": 0.07807807807807808,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000205",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000205.jpg",
+      "total_labels": 303,
+      "small_labels": 297,
+      "small_ratio": 0.9801980198019802,
+      "border_object_count": 32,
+      "border_object_ratio": 0.10561056105610561,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000212",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000212.jpg",
+      "total_labels": 319,
+      "small_labels": 297,
+      "small_ratio": 0.9310344827586207,
+      "border_object_count": 36,
+      "border_object_ratio": 0.11285266457680251,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000143_00881_d_0000052",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000143_00881_d_0000052.jpg",
+      "total_labels": 342,
+      "small_labels": 295,
+      "small_ratio": 0.8625730994152047,
+      "border_object_count": 10,
+      "border_object_ratio": 0.029239766081871343,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000189",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000189.jpg",
+      "total_labels": 296,
+      "small_labels": 295,
+      "small_ratio": 0.9966216216216216,
+      "border_object_count": 17,
+      "border_object_ratio": 0.057432432432432436,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000213",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000213.jpg",
+      "total_labels": 329,
+      "small_labels": 290,
+      "small_ratio": 0.8814589665653495,
+      "border_object_count": 35,
+      "border_object_ratio": 0.10638297872340426,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000063_00500_d_0000001",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\0000063_00500_d_0000001.jpg",
+      "total_labels": 293,
+      "small_labels": 284,
+      "small_ratio": 0.9692832764505119,
+      "border_object_count": 42,
+      "border_object_ratio": 0.14334470989761092,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000295_02400_d_0000033",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000295_02400_d_0000033.jpg",
+      "total_labels": 317,
+      "small_labels": 280,
+      "small_ratio": 0.8832807570977917,
+      "border_object_count": 25,
+      "border_object_ratio": 0.07886435331230283,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000295_01800_d_0000030",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000295_01800_d_0000030.jpg",
+      "total_labels": 306,
+      "small_labels": 269,
+      "small_ratio": 0.8790849673202614,
+      "border_object_count": 5,
+      "border_object_ratio": 0.016339869281045753,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000142_04058_d_0000043",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000142_04058_d_0000043.jpg",
+      "total_labels": 306,
+      "small_labels": 268,
+      "small_ratio": 0.8758169934640523,
+      "border_object_count": 6,
+      "border_object_ratio": 0.0196078431372549,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000211",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000211.jpg",
+      "total_labels": 286,
+      "small_labels": 268,
+      "small_ratio": 0.9370629370629371,
+      "border_object_count": 41,
+      "border_object_ratio": 0.14335664335664336,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999955_00000_d_0000224",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999955_00000_d_0000224.jpg",
+      "total_labels": 274,
+      "small_labels": 264,
+      "small_ratio": 0.9635036496350365,
+      "border_object_count": 16,
+      "border_object_ratio": 0.058394160583941604,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000216",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000216.jpg",
+      "total_labels": 284,
+      "small_labels": 263,
+      "small_ratio": 0.926056338028169,
+      "border_object_count": 18,
+      "border_object_ratio": 0.06338028169014084,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000143_00281_d_0000049",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000143_00281_d_0000049.jpg",
+      "total_labels": 284,
+      "small_labels": 261,
+      "small_ratio": 0.9190140845070423,
+      "border_object_count": 8,
+      "border_object_ratio": 0.028169014084507043,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000295_02000_d_0000031",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000295_02000_d_0000031.jpg",
+      "total_labels": 311,
+      "small_labels": 261,
+      "small_ratio": 0.8392282958199357,
+      "border_object_count": 20,
+      "border_object_ratio": 0.06430868167202572,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000344_02549_d_0000306",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000344_02549_d_0000306.jpg",
+      "total_labels": 285,
+      "small_labels": 250,
+      "small_ratio": 0.8771929824561403,
+      "border_object_count": 30,
+      "border_object_ratio": 0.10526315789473684,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "people",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000066_01097_d_0000002",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\0000066_01097_d_0000002.jpg",
+      "total_labels": 275,
+      "small_labels": 249,
+      "small_ratio": 0.9054545454545454,
+      "border_object_count": 13,
+      "border_object_ratio": 0.04727272727272727,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000141_02251_d_0000019",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000141_02251_d_0000019.jpg",
+      "total_labels": 304,
+      "small_labels": 240,
+      "small_ratio": 0.7894736842105263,
+      "border_object_count": 5,
+      "border_object_ratio": 0.01644736842105263,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000188",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000188.jpg",
+      "total_labels": 240,
+      "small_labels": 238,
+      "small_ratio": 0.9916666666666667,
+      "border_object_count": 51,
+      "border_object_ratio": 0.2125,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999945_00000_d_0000119",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999945_00000_d_0000119.jpg",
+      "total_labels": 255,
+      "small_labels": 237,
+      "small_ratio": 0.9294117647058824,
+      "border_object_count": 34,
+      "border_object_ratio": 0.13333333333333333,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "9999943_00000_d_0000048",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999943_00000_d_0000048.jpg",
+      "total_labels": 266,
+      "small_labels": 230,
+      "small_ratio": 0.8646616541353384,
+      "border_object_count": 35,
+      "border_object_ratio": 0.13157894736842105,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000143_00081_d_0000048",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000143_00081_d_0000048.jpg",
+      "total_labels": 253,
+      "small_labels": 229,
+      "small_ratio": 0.9051383399209486,
+      "border_object_count": 3,
+      "border_object_ratio": 0.011857707509881422,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000137_01824_d_0000162",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000137_01824_d_0000162.jpg",
+      "total_labels": 346,
+      "small_labels": 228,
+      "small_ratio": 0.6589595375722543,
+      "border_object_count": 9,
+      "border_object_ratio": 0.02601156069364162,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000295_01000_d_0000026",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000295_01000_d_0000026.jpg",
+      "total_labels": 251,
+      "small_labels": 226,
+      "small_ratio": 0.900398406374502,
+      "border_object_count": 8,
+      "border_object_ratio": 0.03187250996015936,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000127",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000127.jpg",
+      "total_labels": 227,
+      "small_labels": 226,
+      "small_ratio": 0.9955947136563876,
+      "border_object_count": 39,
+      "border_object_ratio": 0.17180616740088106,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000218",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000218.jpg",
+      "total_labels": 255,
+      "small_labels": 226,
+      "small_ratio": 0.8862745098039215,
+      "border_object_count": 27,
+      "border_object_ratio": 0.10588235294117647,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000140_01877_d_0000003",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000140_01877_d_0000003.jpg",
+      "total_labels": 305,
+      "small_labels": 222,
+      "small_ratio": 0.7278688524590164,
+      "border_object_count": 12,
+      "border_object_ratio": 0.03934426229508197,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999937_00000_d_0000016",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999937_00000_d_0000016.jpg",
+      "total_labels": 289,
+      "small_labels": 221,
+      "small_ratio": 0.7647058823529411,
+      "border_object_count": 21,
+      "border_object_ratio": 0.0726643598615917,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999937_00000_d_0000003",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999937_00000_d_0000003.jpg",
+      "total_labels": 251,
+      "small_labels": 218,
+      "small_ratio": 0.8685258964143426,
+      "border_object_count": 16,
+      "border_object_ratio": 0.06374501992031872,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000303_00801_d_0000187",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000303_00801_d_0000187.jpg",
+      "total_labels": 245,
+      "small_labels": 215,
+      "small_ratio": 0.8775510204081632,
+      "border_object_count": 33,
+      "border_object_ratio": 0.1346938775510204,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "motor",
+        "pedestrian",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999945_00000_d_0000136",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999945_00000_d_0000136.jpg",
+      "total_labels": 236,
+      "small_labels": 215,
+      "small_ratio": 0.9110169491525424,
+      "border_object_count": 11,
+      "border_object_ratio": 0.046610169491525424,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999947_00000_d_0000021",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999947_00000_d_0000021.jpg",
+      "total_labels": 249,
+      "small_labels": 215,
+      "small_ratio": 0.8634538152610441,
+      "border_object_count": 10,
+      "border_object_ratio": 0.040160642570281124,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "motor",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000135_01327_d_0000151",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000135_01327_d_0000151.jpg",
+      "total_labels": 348,
+      "small_labels": 214,
+      "small_ratio": 0.6149425287356322,
+      "border_object_count": 16,
+      "border_object_ratio": 0.04597701149425287,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000206",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000206.jpg",
+      "total_labels": 220,
+      "small_labels": 213,
+      "small_ratio": 0.9681818181818181,
+      "border_object_count": 55,
+      "border_object_ratio": 0.25,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "pedestrian",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000197_00401_d_0000147",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000197_00401_d_0000147.jpg",
+      "total_labels": 225,
+      "small_labels": 211,
+      "small_ratio": 0.9377777777777778,
+      "border_object_count": 9,
+      "border_object_ratio": 0.04,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "9999994_00000_d_0000100",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999994_00000_d_0000100.jpg",
+      "total_labels": 251,
+      "small_labels": 206,
+      "small_ratio": 0.8207171314741036,
+      "border_object_count": 5,
+      "border_object_ratio": 0.0199203187250996,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000366_09801_d_0000818",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000366_09801_d_0000818.jpg",
+      "total_labels": 236,
+      "small_labels": 205,
+      "small_ratio": 0.8686440677966102,
+      "border_object_count": 11,
+      "border_object_ratio": 0.046610169491525424,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bus"
+      ]
+    },
+    {
+      "image_id": "9999955_00000_d_0000313",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999955_00000_d_0000313.jpg",
+      "total_labels": 219,
+      "small_labels": 204,
+      "small_ratio": 0.9315068493150684,
+      "border_object_count": 12,
+      "border_object_ratio": 0.0547945205479452,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "bus",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000297_00001_d_0000057",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000297_00001_d_0000057.jpg",
+      "total_labels": 252,
+      "small_labels": 203,
+      "small_ratio": 0.8055555555555556,
+      "border_object_count": 10,
+      "border_object_ratio": 0.03968253968253968,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000322_00001_d_0000629",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000322_00001_d_0000629.jpg",
+      "total_labels": 243,
+      "small_labels": 203,
+      "small_ratio": 0.8353909465020576,
+      "border_object_count": 13,
+      "border_object_ratio": 0.053497942386831275,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000197_01958_d_0000151",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000197_01958_d_0000151.jpg",
+      "total_labels": 219,
+      "small_labels": 202,
+      "small_ratio": 0.9223744292237442,
+      "border_object_count": 8,
+      "border_object_ratio": 0.0365296803652968,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "motor",
+        "pedestrian"
+      ]
+    }
+  ],
+  "high_small_ratio": [
+    {
+      "image_id": "0000040_04284_d_0000071",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000040_04284_d_0000071.jpg",
+      "total_labels": 131,
+      "small_labels": 131,
+      "small_ratio": 1.0,
+      "border_object_count": 57,
+      "border_object_ratio": 0.4351145038167939,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "bicycle",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000043_00500_d_0000077",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000043_00500_d_0000077.jpg",
+      "total_labels": 162,
+      "small_labels": 162,
+      "small_ratio": 1.0,
+      "border_object_count": 10,
+      "border_object_ratio": 0.06172839506172839,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000045_01032_d_0000085",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000045_01032_d_0000085.jpg",
+      "total_labels": 56,
+      "small_labels": 56,
+      "small_ratio": 1.0,
+      "border_object_count": 4,
+      "border_object_ratio": 0.07142857142857142,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000047_03500_d_0000095",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000047_03500_d_0000095.jpg",
+      "total_labels": 152,
+      "small_labels": 152,
+      "small_ratio": 1.0,
+      "border_object_count": 13,
+      "border_object_ratio": 0.08552631578947369,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000048_01989_d_0000098",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000048_01989_d_0000098.jpg",
+      "total_labels": 99,
+      "small_labels": 99,
+      "small_ratio": 1.0,
+      "border_object_count": 5,
+      "border_object_ratio": 0.050505050505050504,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000059_01886_d_0000114",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000059_01886_d_0000114.jpg",
+      "total_labels": 902,
+      "small_labels": 902,
+      "small_ratio": 1.0,
+      "border_object_count": 87,
+      "border_object_ratio": 0.09645232815964523,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000099_03508_d_0000008",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000099_03508_d_0000008.jpg",
+      "total_labels": 7,
+      "small_labels": 7,
+      "small_ratio": 1.0,
+      "border_object_count": 2,
+      "border_object_ratio": 0.2857142857142857,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000099_03930_d_0000009",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000099_03930_d_0000009.jpg",
+      "total_labels": 10,
+      "small_labels": 10,
+      "small_ratio": 1.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.1,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000101_00228_d_0000016",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000101_00228_d_0000016.jpg",
+      "total_labels": 16,
+      "small_labels": 16,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000101_01189_d_0000017",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000101_01189_d_0000017.jpg",
+      "total_labels": 9,
+      "small_labels": 9,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000101_02927_d_0000019",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000101_02927_d_0000019.jpg",
+      "total_labels": 8,
+      "small_labels": 8,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000101_04436_d_0000021",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000101_04436_d_0000021.jpg",
+      "total_labels": 17,
+      "small_labels": 17,
+      "small_ratio": 1.0,
+      "border_object_count": 3,
+      "border_object_ratio": 0.17647058823529413,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000174_02175_d_0000001",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000174_02175_d_0000001.jpg",
+      "total_labels": 24,
+      "small_labels": 24,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "motor",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000179_00743_d_0000018",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000179_00743_d_0000018.jpg",
+      "total_labels": 2,
+      "small_labels": 2,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "van",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000180_00000_d_0000019",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000180_00000_d_0000019.jpg",
+      "total_labels": 1,
+      "small_labels": 1,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000181_02615_d_0000035",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000181_02615_d_0000035.jpg",
+      "total_labels": 19,
+      "small_labels": 19,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "motor",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000182_02053_d_0000041",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000182_02053_d_0000041.jpg",
+      "total_labels": 59,
+      "small_labels": 59,
+      "small_ratio": 1.0,
+      "border_object_count": 2,
+      "border_object_ratio": 0.03389830508474576,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "motor",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000210_01037_d_0000226",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000210_01037_d_0000226.jpg",
+      "total_labels": 9,
+      "small_labels": 9,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000239_12115_d_0000031",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000239_12115_d_0000031.jpg",
+      "total_labels": 67,
+      "small_labels": 67,
+      "small_ratio": 1.0,
+      "border_object_count": 2,
+      "border_object_ratio": 0.029850746268656716,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "truck"
+      ]
+    },
+    {
+      "image_id": "0000247_00002_d_0000001",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000247_00002_d_0000001.jpg",
+      "total_labels": 111,
+      "small_labels": 111,
+      "small_ratio": 1.0,
+      "border_object_count": 12,
+      "border_object_ratio": 0.10810810810810811,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "tricycle",
+        "car",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000252_00987_d_0000004",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000252_00987_d_0000004.jpg",
+      "total_labels": 40,
+      "small_labels": 40,
+      "small_ratio": 1.0,
+      "border_object_count": 2,
+      "border_object_ratio": 0.05,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000254_01500_d_0000004",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000254_01500_d_0000004.jpg",
+      "total_labels": 88,
+      "small_labels": 88,
+      "small_ratio": 1.0,
+      "border_object_count": 11,
+      "border_object_ratio": 0.125,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "truck",
+        "tricycle"
+      ]
+    },
+    {
+      "image_id": "0000256_04719_d_0000039",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000256_04719_d_0000039.jpg",
+      "total_labels": 5,
+      "small_labels": 5,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "motor",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000257_00359_d_0000044",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000257_00359_d_0000044.jpg",
+      "total_labels": 40,
+      "small_labels": 40,
+      "small_ratio": 1.0,
+      "border_object_count": 5,
+      "border_object_ratio": 0.125,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "truck",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000257_00621_d_0000045",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000257_00621_d_0000045.jpg",
+      "total_labels": 62,
+      "small_labels": 62,
+      "small_ratio": 1.0,
+      "border_object_count": 3,
+      "border_object_ratio": 0.04838709677419355,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "van",
+        "truck"
+      ]
+    },
+    {
+      "image_id": "0000257_04249_d_0000066",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000257_04249_d_0000066.jpg",
+      "total_labels": 7,
+      "small_labels": 7,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000257_04349_d_0000067",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000257_04349_d_0000067.jpg",
+      "total_labels": 63,
+      "small_labels": 63,
+      "small_ratio": 1.0,
+      "border_object_count": 13,
+      "border_object_ratio": 0.20634920634920634,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000263_05001_d_0000192",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000263_05001_d_0000192.jpg",
+      "total_labels": 22,
+      "small_labels": 22,
+      "small_ratio": 1.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.045454545454545456,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "truck"
+      ]
+    },
+    {
+      "image_id": "0000275_00001_d_0000497",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000275_00001_d_0000497.jpg",
+      "total_labels": 14,
+      "small_labels": 14,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "truck",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000348_02157_d_0000417",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000348_02157_d_0000417.jpg",
+      "total_labels": 21,
+      "small_labels": 21,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000348_02353_d_0000418",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000348_02353_d_0000418.jpg",
+      "total_labels": 28,
+      "small_labels": 28,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000366_05489_d_0000804",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000366_05489_d_0000804.jpg",
+      "total_labels": 94,
+      "small_labels": 94,
+      "small_ratio": 1.0,
+      "border_object_count": 7,
+      "border_object_ratio": 0.07446808510638298,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000366_08233_d_0000814",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000366_08233_d_0000814.jpg",
+      "total_labels": 57,
+      "small_labels": 57,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "bus",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000366_08429_d_0000815",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000366_08429_d_0000815.jpg",
+      "total_labels": 163,
+      "small_labels": 163,
+      "small_ratio": 1.0,
+      "border_object_count": 4,
+      "border_object_ratio": 0.024539877300613498,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999937_00000_d_0000012",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999937_00000_d_0000012.jpg",
+      "total_labels": 1,
+      "small_labels": 1,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999937_00000_d_0000025",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999937_00000_d_0000025.jpg",
+      "total_labels": 80,
+      "small_labels": 80,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "motor",
+        "tricycle"
+      ]
+    },
+    {
+      "image_id": "9999940_00000_d_0000045",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999940_00000_d_0000045.jpg",
+      "total_labels": 39,
+      "small_labels": 39,
+      "small_ratio": 1.0,
+      "border_object_count": 6,
+      "border_object_ratio": 0.15384615384615385,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999940_00000_d_0000057",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999940_00000_d_0000057.jpg",
+      "total_labels": 107,
+      "small_labels": 107,
+      "small_ratio": 1.0,
+      "border_object_count": 7,
+      "border_object_ratio": 0.06542056074766354,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "van",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999940_00000_d_0000060",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999940_00000_d_0000060.jpg",
+      "total_labels": 51,
+      "small_labels": 51,
+      "small_ratio": 1.0,
+      "border_object_count": 20,
+      "border_object_ratio": 0.39215686274509803,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "van",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999940_00000_d_0000064",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999940_00000_d_0000064.jpg",
+      "total_labels": 20,
+      "small_labels": 20,
+      "small_ratio": 1.0,
+      "border_object_count": 3,
+      "border_object_ratio": 0.15,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999940_00000_d_0000100",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999940_00000_d_0000100.jpg",
+      "total_labels": 8,
+      "small_labels": 8,
+      "small_ratio": 1.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.125,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999945_00000_d_0000002",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999945_00000_d_0000002.jpg",
+      "total_labels": 92,
+      "small_labels": 92,
+      "small_ratio": 1.0,
+      "border_object_count": 5,
+      "border_object_ratio": 0.05434782608695652,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "motor",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999945_00000_d_0000003",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999945_00000_d_0000003.jpg",
+      "total_labels": 74,
+      "small_labels": 74,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999945_00000_d_0000004",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999945_00000_d_0000004.jpg",
+      "total_labels": 178,
+      "small_labels": 178,
+      "small_ratio": 1.0,
+      "border_object_count": 16,
+      "border_object_ratio": 0.0898876404494382,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999951_00000_d_0000003",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999951_00000_d_0000003.jpg",
+      "total_labels": 25,
+      "small_labels": 25,
+      "small_ratio": 1.0,
+      "border_object_count": 3,
+      "border_object_ratio": 0.12,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999951_00000_d_0000013",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999951_00000_d_0000013.jpg",
+      "total_labels": 20,
+      "small_labels": 20,
+      "small_ratio": 1.0,
+      "border_object_count": 3,
+      "border_object_ratio": 0.15,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999951_00000_d_0000246",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999951_00000_d_0000246.jpg",
+      "total_labels": 9,
+      "small_labels": 9,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999951_00000_d_0000311",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999951_00000_d_0000311.jpg",
+      "total_labels": 39,
+      "small_labels": 39,
+      "small_ratio": 1.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.02564102564102564,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000048",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000048.jpg",
+      "total_labels": 19,
+      "small_labels": 19,
+      "small_ratio": 1.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.05263157894736842,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000049",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000049.jpg",
+      "total_labels": 7,
+      "small_labels": 7,
+      "small_ratio": 1.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.14285714285714285,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    }
+  ],
+  "border_heavy": [
+    {
+      "image_id": "0000059_01886_d_0000114",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000059_01886_d_0000114.jpg",
+      "total_labels": 902,
+      "small_labels": 902,
+      "small_ratio": 1.0,
+      "border_object_count": 87,
+      "border_object_ratio": 0.09645232815964523,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000366_03921_d_0000797",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000366_03921_d_0000797.jpg",
+      "total_labels": 182,
+      "small_labels": 129,
+      "small_ratio": 0.7087912087912088,
+      "border_object_count": 65,
+      "border_object_ratio": 0.35714285714285715,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000040_04284_d_0000071",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000040_04284_d_0000071.jpg",
+      "total_labels": 131,
+      "small_labels": 131,
+      "small_ratio": 1.0,
+      "border_object_count": 57,
+      "border_object_ratio": 0.4351145038167939,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "bicycle",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000206",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000206.jpg",
+      "total_labels": 220,
+      "small_labels": 213,
+      "small_ratio": 0.9681818181818181,
+      "border_object_count": 55,
+      "border_object_ratio": 0.25,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "pedestrian",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000068_00571_d_0000003",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000068_00571_d_0000003.jpg",
+      "total_labels": 211,
+      "small_labels": 170,
+      "small_ratio": 0.8056872037914692,
+      "border_object_count": 54,
+      "border_object_ratio": 0.2559241706161137,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000068_03174_d_0000009",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000068_03174_d_0000009.jpg",
+      "total_labels": 171,
+      "small_labels": 138,
+      "small_ratio": 0.8070175438596491,
+      "border_object_count": 54,
+      "border_object_ratio": 0.3157894736842105,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999940_00000_d_0000055",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999940_00000_d_0000055.jpg",
+      "total_labels": 190,
+      "small_labels": 189,
+      "small_ratio": 0.9947368421052631,
+      "border_object_count": 53,
+      "border_object_ratio": 0.2789473684210526,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "van",
+        "truck"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000188",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000188.jpg",
+      "total_labels": 240,
+      "small_labels": 238,
+      "small_ratio": 0.9916666666666667,
+      "border_object_count": 51,
+      "border_object_ratio": 0.2125,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000207",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000207.jpg",
+      "total_labels": 461,
+      "small_labels": 451,
+      "small_ratio": 0.9783080260303688,
+      "border_object_count": 51,
+      "border_object_ratio": 0.11062906724511931,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000031_00000_d_0000037",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000031_00000_d_0000037.jpg",
+      "total_labels": 164,
+      "small_labels": 107,
+      "small_ratio": 0.6524390243902439,
+      "border_object_count": 50,
+      "border_object_ratio": 0.3048780487804878,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000210",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000210.jpg",
+      "total_labels": 369,
+      "small_labels": 342,
+      "small_ratio": 0.926829268292683,
+      "border_object_count": 47,
+      "border_object_ratio": 0.12737127371273713,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000068_04169_d_0000014",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000068_04169_d_0000014.jpg",
+      "total_labels": 189,
+      "small_labels": 149,
+      "small_ratio": 0.7883597883597884,
+      "border_object_count": 46,
+      "border_object_ratio": 0.24338624338624337,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000226_02906_d_0000011",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000226_02906_d_0000011.jpg",
+      "total_labels": 178,
+      "small_labels": 144,
+      "small_ratio": 0.8089887640449438,
+      "border_object_count": 44,
+      "border_object_ratio": 0.24719101123595505,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "van",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000257_02841_d_0000056",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000257_02841_d_0000056.jpg",
+      "total_labels": 77,
+      "small_labels": 41,
+      "small_ratio": 0.5324675324675324,
+      "border_object_count": 44,
+      "border_object_ratio": 0.5714285714285714,
+      "density_level": "medium",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "truck"
+      ]
+    },
+    {
+      "image_id": "9999955_00000_d_0000351",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999955_00000_d_0000351.jpg",
+      "total_labels": 139,
+      "small_labels": 128,
+      "small_ratio": 0.920863309352518,
+      "border_object_count": 44,
+      "border_object_ratio": 0.31654676258992803,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "van",
+        "car",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000325_04201_d_0000683",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000325_04201_d_0000683.jpg",
+      "total_labels": 119,
+      "small_labels": 83,
+      "small_ratio": 0.6974789915966386,
+      "border_object_count": 43,
+      "border_object_ratio": 0.36134453781512604,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "people",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999985_00000_d_0000045",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999985_00000_d_0000045.jpg",
+      "total_labels": 112,
+      "small_labels": 85,
+      "small_ratio": 0.7589285714285714,
+      "border_object_count": 42,
+      "border_object_ratio": 0.375,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "motor",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000244_01000_d_0000003",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000244_01000_d_0000003.jpg",
+      "total_labels": 122,
+      "small_labels": 115,
+      "small_ratio": 0.9426229508196722,
+      "border_object_count": 42,
+      "border_object_ratio": 0.3442622950819672,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000291_01001_d_0000873",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000291_01001_d_0000873.jpg",
+      "total_labels": 159,
+      "small_labels": 122,
+      "small_ratio": 0.7672955974842768,
+      "border_object_count": 42,
+      "border_object_ratio": 0.2641509433962264,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "pedestrian",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000063_00500_d_0000001",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\0000063_00500_d_0000001.jpg",
+      "total_labels": 293,
+      "small_labels": 284,
+      "small_ratio": 0.9692832764505119,
+      "border_object_count": 42,
+      "border_object_ratio": 0.14334470989761092,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000185",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000185.jpg",
+      "total_labels": 123,
+      "small_labels": 118,
+      "small_ratio": 0.959349593495935,
+      "border_object_count": 42,
+      "border_object_ratio": 0.34146341463414637,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000068_00001_d_0000001",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000068_00001_d_0000001.jpg",
+      "total_labels": 198,
+      "small_labels": 160,
+      "small_ratio": 0.8080808080808081,
+      "border_object_count": 41,
+      "border_object_ratio": 0.20707070707070707,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "9999943_00000_d_0000047",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999943_00000_d_0000047.jpg",
+      "total_labels": 197,
+      "small_labels": 181,
+      "small_ratio": 0.9187817258883249,
+      "border_object_count": 41,
+      "border_object_ratio": 0.20812182741116753,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000126",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000126.jpg",
+      "total_labels": 140,
+      "small_labels": 137,
+      "small_ratio": 0.9785714285714285,
+      "border_object_count": 41,
+      "border_object_ratio": 0.29285714285714287,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bus"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000211",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000211.jpg",
+      "total_labels": 286,
+      "small_labels": 268,
+      "small_ratio": 0.9370629370629371,
+      "border_object_count": 41,
+      "border_object_ratio": 0.14335664335664336,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000219",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000219.jpg",
+      "total_labels": 189,
+      "small_labels": 180,
+      "small_ratio": 0.9523809523809523,
+      "border_object_count": 41,
+      "border_object_ratio": 0.21693121693121692,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "bus"
+      ]
+    },
+    {
+      "image_id": "0000068_00460_d_0000002",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000068_00460_d_0000002.jpg",
+      "total_labels": 205,
+      "small_labels": 147,
+      "small_ratio": 0.7170731707317073,
+      "border_object_count": 40,
+      "border_object_ratio": 0.1951219512195122,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people",
+        "pedestrian",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000290_02801_d_0000861",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000290_02801_d_0000861.jpg",
+      "total_labels": 120,
+      "small_labels": 87,
+      "small_ratio": 0.725,
+      "border_object_count": 40,
+      "border_object_ratio": 0.3333333333333333,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "people",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999964_00000_d_0000074",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999964_00000_d_0000074.jpg",
+      "total_labels": 160,
+      "small_labels": 109,
+      "small_ratio": 0.68125,
+      "border_object_count": 40,
+      "border_object_ratio": 0.25,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000291_02601_d_0000881",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000291_02601_d_0000881.jpg",
+      "total_labels": 178,
+      "small_labels": 109,
+      "small_ratio": 0.6123595505617978,
+      "border_object_count": 40,
+      "border_object_ratio": 0.2247191011235955,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000127",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000127.jpg",
+      "total_labels": 227,
+      "small_labels": 226,
+      "small_ratio": 0.9955947136563876,
+      "border_object_count": 39,
+      "border_object_ratio": 0.17180616740088106,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000356_04117_d_0000650",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000356_04117_d_0000650.jpg",
+      "total_labels": 93,
+      "small_labels": 70,
+      "small_ratio": 0.7526881720430108,
+      "border_object_count": 38,
+      "border_object_ratio": 0.40860215053763443,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "motor",
+        "car",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999999_00328_d_0000143",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999999_00328_d_0000143.jpg",
+      "total_labels": 216,
+      "small_labels": 102,
+      "small_ratio": 0.4722222222222222,
+      "border_object_count": 37,
+      "border_object_ratio": 0.1712962962962963,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000037_01494_d_0000052",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000037_01494_d_0000052.jpg",
+      "total_labels": 227,
+      "small_labels": 171,
+      "small_ratio": 0.7533039647577092,
+      "border_object_count": 36,
+      "border_object_ratio": 0.15859030837004406,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000208",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000208.jpg",
+      "total_labels": 400,
+      "small_labels": 386,
+      "small_ratio": 0.965,
+      "border_object_count": 36,
+      "border_object_ratio": 0.09,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000212",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000212.jpg",
+      "total_labels": 319,
+      "small_labels": 297,
+      "small_ratio": 0.9310344827586207,
+      "border_object_count": 36,
+      "border_object_ratio": 0.11285266457680251,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000204_00000_d_0000191",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000204_00000_d_0000191.jpg",
+      "total_labels": 126,
+      "small_labels": 103,
+      "small_ratio": 0.8174603174603174,
+      "border_object_count": 35,
+      "border_object_ratio": 0.2777777777777778,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "tricycle"
+      ]
+    },
+    {
+      "image_id": "9999943_00000_d_0000048",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999943_00000_d_0000048.jpg",
+      "total_labels": 266,
+      "small_labels": 230,
+      "small_ratio": 0.8646616541353384,
+      "border_object_count": 35,
+      "border_object_ratio": 0.13157894736842105,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999965_00000_d_0000028",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999965_00000_d_0000028.jpg",
+      "total_labels": 222,
+      "small_labels": 182,
+      "small_ratio": 0.8198198198198198,
+      "border_object_count": 35,
+      "border_object_ratio": 0.15765765765765766,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000291_02001_d_0000878",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000291_02001_d_0000878.jpg",
+      "total_labels": 172,
+      "small_labels": 87,
+      "small_ratio": 0.5058139534883721,
+      "border_object_count": 35,
+      "border_object_ratio": 0.20348837209302326,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000213",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000213.jpg",
+      "total_labels": 329,
+      "small_labels": 290,
+      "small_ratio": 0.8814589665653495,
+      "border_object_count": 35,
+      "border_object_ratio": 0.10638297872340426,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000290_03201_d_0000863",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000290_03201_d_0000863.jpg",
+      "total_labels": 110,
+      "small_labels": 76,
+      "small_ratio": 0.6909090909090909,
+      "border_object_count": 34,
+      "border_object_ratio": 0.3090909090909091,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999945_00000_d_0000119",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999945_00000_d_0000119.jpg",
+      "total_labels": 255,
+      "small_labels": 237,
+      "small_ratio": 0.9294117647058824,
+      "border_object_count": 34,
+      "border_object_ratio": 0.13333333333333333,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "9999966_00000_d_0000043",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999966_00000_d_0000043.jpg",
+      "total_labels": 86,
+      "small_labels": 43,
+      "small_ratio": 0.5,
+      "border_object_count": 34,
+      "border_object_ratio": 0.3953488372093023,
+      "density_level": "medium",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000125_00574_d_0000123",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000125_00574_d_0000123.jpg",
+      "total_labels": 229,
+      "small_labels": 38,
+      "small_ratio": 0.16593886462882096,
+      "border_object_count": 33,
+      "border_object_ratio": 0.14410480349344978,
+      "density_level": "high",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "car",
+        "van",
+        "bicycle"
+      ]
+    },
+    {
+      "image_id": "0000290_02201_d_0000858",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000290_02201_d_0000858.jpg",
+      "total_labels": 87,
+      "small_labels": 69,
+      "small_ratio": 0.7931034482758621,
+      "border_object_count": 33,
+      "border_object_ratio": 0.3793103448275862,
+      "density_level": "medium",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car",
+        "van",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000303_00801_d_0000187",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000303_00801_d_0000187.jpg",
+      "total_labels": 245,
+      "small_labels": 215,
+      "small_ratio": 0.8775510204081632,
+      "border_object_count": 33,
+      "border_object_ratio": 0.1346938775510204,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "motor",
+        "pedestrian",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000280_00401_d_0000614",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000280_00401_d_0000614.jpg",
+      "total_labels": 59,
+      "small_labels": 35,
+      "small_ratio": 0.5932203389830508,
+      "border_object_count": 33,
+      "border_object_ratio": 0.559322033898305,
+      "density_level": "medium",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian",
+        "people"
+      ]
+    },
+    {
+      "image_id": "0000291_01201_d_0000874",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000291_01201_d_0000874.jpg",
+      "total_labels": 212,
+      "small_labels": 135,
+      "small_ratio": 0.6367924528301887,
+      "border_object_count": 33,
+      "border_object_ratio": 0.15566037735849056,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999938_00000_d_0000104",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999938_00000_d_0000104.jpg",
+      "total_labels": 116,
+      "small_labels": 109,
+      "small_ratio": 0.9396551724137931,
+      "border_object_count": 33,
+      "border_object_ratio": 0.28448275862068967,
+      "density_level": "high",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian",
+        "people",
+        "bus"
+      ]
+    }
+  ],
+  "low_density": [
+    {
+      "image_id": "0000099_00149_d_0000001",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000099_00149_d_0000001.jpg",
+      "total_labels": 1,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000180_00000_d_0000019",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000180_00000_d_0000019.jpg",
+      "total_labels": 1,
+      "small_labels": 1,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999937_00000_d_0000012",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999937_00000_d_0000012.jpg",
+      "total_labels": 1,
+      "small_labels": 1,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999945_00000_d_0000098",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999945_00000_d_0000098.jpg",
+      "total_labels": 1,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000203",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000203.jpg",
+      "total_labels": 1,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999982_00000_d_0000034",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999982_00000_d_0000034.jpg",
+      "total_labels": 1,
+      "small_labels": 1,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000103_00180_d_0000026",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000103_00180_d_0000026.jpg",
+      "total_labels": 1,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000103_04948_d_0000035",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000103_04948_d_0000035.jpg",
+      "total_labels": 1,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 1,
+      "border_object_ratio": 1.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000078_05939_d_0000016",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\0000078_05939_d_0000016.jpg",
+      "total_labels": 1,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "truck"
+      ]
+    },
+    {
+      "image_id": "0000078_06777_d_0000020",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\0000078_06777_d_0000020.jpg",
+      "total_labels": 1,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 1,
+      "border_object_ratio": 1.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "truck"
+      ]
+    },
+    {
+      "image_id": "0000370_02000_d_0000254",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\0000370_02000_d_0000254.jpg",
+      "total_labels": 1,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000076_02667_d_0000010",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000076_02667_d_0000010.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "pedestrian",
+        "truck"
+      ]
+    },
+    {
+      "image_id": "0000098_00016_d_0000001",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000098_00016_d_0000001.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000178_00000_d_0000006",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000178_00000_d_0000006.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000178_00393_d_0000008",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000178_00393_d_0000008.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "bus"
+      ]
+    },
+    {
+      "image_id": "0000179_00743_d_0000018",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000179_00743_d_0000018.jpg",
+      "total_labels": 2,
+      "small_labels": 2,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "van",
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000209_00609_d_0000221",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000209_00609_d_0000221.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000220_02658_d_0000008",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000220_02658_d_0000008.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.5,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000256_01973_d_0000028",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000256_01973_d_0000028.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "tricycle"
+      ]
+    },
+    {
+      "image_id": "0000351_03333_d_0000536",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000351_03333_d_0000536.jpg",
+      "total_labels": 2,
+      "small_labels": 1,
+      "small_ratio": 0.5,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "bicycle",
+        "people"
+      ]
+    },
+    {
+      "image_id": "9999951_00000_d_0000168",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999951_00000_d_0000168.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "truck"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000094",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000094.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000185",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000185.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999997_00000_d_0000007",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999997_00000_d_0000007.jpg",
+      "total_labels": 2,
+      "small_labels": 1,
+      "small_ratio": 0.5,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999997_00000_d_0000012",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999997_00000_d_0000012.jpg",
+      "total_labels": 2,
+      "small_labels": 1,
+      "small_ratio": 0.5,
+      "border_object_count": 1,
+      "border_object_ratio": 0.5,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "pedestrian",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999997_00000_d_0000058",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999997_00000_d_0000058.jpg",
+      "total_labels": 2,
+      "small_labels": 2,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999997_00000_d_0000059",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999997_00000_d_0000059.jpg",
+      "total_labels": 2,
+      "small_labels": 2,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999997_00000_d_0000060",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999997_00000_d_0000060.jpg",
+      "total_labels": 2,
+      "small_labels": 2,
+      "small_ratio": 1.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.5,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999997_00000_d_0000069",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999997_00000_d_0000069.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 2,
+      "border_object_ratio": 1.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "9999998_00116_d_0000094",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999998_00116_d_0000094.jpg",
+      "total_labels": 2,
+      "small_labels": 2,
+      "small_ratio": 1.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "many_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000103_04513_d_0000034",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000103_04513_d_0000034.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000242_00843_d_0000004",
+      "split": "val",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\val\\0000242_00843_d_0000004.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 2,
+      "border_object_ratio": 1.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999952_00000_d_0000257",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999952_00000_d_0000257.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.5,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "truck"
+      ]
+    },
+    {
+      "image_id": "9999952_00000_d_0000259",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999952_00000_d_0000259.jpg",
+      "total_labels": 2,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999976_00000_d_0000018",
+      "split": "test",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\test\\9999976_00000_d_0000018.jpg",
+      "total_labels": 2,
+      "small_labels": 1,
+      "small_ratio": 0.5,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000099_00508_d_0000002",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000099_00508_d_0000002.jpg",
+      "total_labels": 3,
+      "small_labels": 2,
+      "small_ratio": 0.6666666666666666,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000099_00997_d_0000003",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000099_00997_d_0000003.jpg",
+      "total_labels": 3,
+      "small_labels": 2,
+      "small_ratio": 0.6666666666666666,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000099_03156_d_0000007",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000099_03156_d_0000007.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000102_00192_d_0000022",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000102_00192_d_0000022.jpg",
+      "total_labels": 3,
+      "small_labels": 2,
+      "small_ratio": 0.6666666666666666,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "0000144_04401_d_0000001",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000144_04401_d_0000001.jpg",
+      "total_labels": 3,
+      "small_labels": 2,
+      "small_ratio": 0.6666666666666666,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "car",
+        "van"
+      ]
+    },
+    {
+      "image_id": "0000179_00605_d_0000017",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000179_00605_d_0000017.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "0000196_05025_d_0000145",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000196_05025_d_0000145.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "tricycle",
+        "motor"
+      ]
+    },
+    {
+      "image_id": "0000218_00001_d_0000001",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\0000218_00001_d_0000001.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "pedestrian"
+      ]
+    },
+    {
+      "image_id": "9999942_00000_d_0000056",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999942_00000_d_0000056.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.3333333333333333,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "motor",
+        "bicycle",
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999951_00000_d_0000136",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999951_00000_d_0000136.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000170",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000170.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000182",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000182.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "bus"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000184",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000184.jpg",
+      "total_labels": 3,
+      "small_labels": 0,
+      "small_ratio": 0.0,
+      "border_object_count": 1,
+      "border_object_ratio": 0.3333333333333333,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car"
+      ]
+    },
+    {
+      "image_id": "9999953_00000_d_0000207",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999953_00000_d_0000207.jpg",
+      "total_labels": 3,
+      "small_labels": 1,
+      "small_ratio": 0.3333333333333333,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "few_small",
+      "dominant_classes": [
+        "car",
+        "bus"
+      ]
+    },
+    {
+      "image_id": "9999982_00000_d_0000058",
+      "split": "train",
+      "image_path": "D:\\AIP491\\AIP491-G17\\data\\processed\\images\\train\\9999982_00000_d_0000058.jpg",
+      "total_labels": 3,
+      "small_labels": 2,
+      "small_ratio": 0.6666666666666666,
+      "border_object_count": 0,
+      "border_object_ratio": 0.0,
+      "density_level": "low",
+      "small_object_level": "some_small",
+      "dominant_classes": [
+        "car",
+        "motor",
+        "people"
+      ]
+    }
+  ]
+}

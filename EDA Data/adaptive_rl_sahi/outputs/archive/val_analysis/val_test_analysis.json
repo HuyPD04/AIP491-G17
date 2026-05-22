@@ -1,0 +1,246 @@
+{
+  "split": "val",
+  "total_images": 548,
+  "total_labels": 38759,
+  "detected_labels": 9226,
+  "missed_labels": 29533,
+  "recall": 0.23803503702365902,
+  "miss_rate": 0.761964962976341,
+  "by_class": {
+    "awning-tricycle": {
+      "total_labels": 532,
+      "detected": 104,
+      "missed": 428,
+      "recall": 0.19548872180451127,
+      "miss_rate": 0.8045112781954887
+    },
+    "bicycle": {
+      "total_labels": 1287,
+      "detected": 70,
+      "missed": 1217,
+      "recall": 0.05439005439005439,
+      "miss_rate": 0.9456099456099456
+    },
+    "bus": {
+      "total_labels": 251,
+      "detected": 94,
+      "missed": 157,
+      "recall": 0.3745019920318725,
+      "miss_rate": 0.6254980079681275
+    },
+    "car": {
+      "total_labels": 14064,
+      "detected": 5747,
+      "missed": 8317,
+      "recall": 0.40863196814562003,
+      "miss_rate": 0.59136803185438
+    },
+    "motor": {
+      "total_labels": 4886,
+      "detected": 424,
+      "missed": 4462,
+      "recall": 0.08677855096193204,
+      "miss_rate": 0.9132214490380679
+    },
+    "pedestrian": {
+      "total_labels": 8844,
+      "detected": 1277,
+      "missed": 7567,
+      "recall": 0.14439167797376753,
+      "miss_rate": 0.8556083220262325
+    },
+    "people": {
+      "total_labels": 5125,
+      "detected": 484,
+      "missed": 4641,
+      "recall": 0.0944390243902439,
+      "miss_rate": 0.9055609756097561
+    },
+    "tricycle": {
+      "total_labels": 1045,
+      "detected": 151,
+      "missed": 894,
+      "recall": 0.1444976076555024,
+      "miss_rate": 0.8555023923444977
+    },
+    "truck": {
+      "total_labels": 750,
+      "detected": 202,
+      "missed": 548,
+      "recall": 0.2693333333333333,
+      "miss_rate": 0.7306666666666667
+    },
+    "van": {
+      "total_labels": 1975,
+      "detected": 673,
+      "missed": 1302,
+      "recall": 0.3407594936708861,
+      "miss_rate": 0.6592405063291139
+    }
+  },
+  "by_size": {
+    "large": {
+      "total_labels": 1068,
+      "detected": 940,
+      "missed": 128,
+      "recall": 0.8801498127340824,
+      "miss_rate": 0.1198501872659176
+    },
+    "medium": {
+      "total_labels": 11105,
+      "detected": 5617,
+      "missed": 5488,
+      "recall": 0.5058081945069789,
+      "miss_rate": 0.49419180549302116
+    },
+    "small": {
+      "total_labels": 26586,
+      "detected": 2669,
+      "missed": 23917,
+      "recall": 0.10039118332957196,
+      "miss_rate": 0.899608816670428
+    }
+  },
+  "top_missed_images": [
+    {
+      "image_id": "0000295_02400_d_0000033",
+      "total_labels": 317,
+      "missed": 289,
+      "detected": 28,
+      "miss_rate": 0.9116719242902208
+    },
+    {
+      "image_id": "0000295_02000_d_0000031",
+      "total_labels": 311,
+      "missed": 277,
+      "detected": 34,
+      "miss_rate": 0.8906752411575563
+    },
+    {
+      "image_id": "0000295_01800_d_0000030",
+      "total_labels": 306,
+      "missed": 276,
+      "detected": 30,
+      "miss_rate": 0.9019607843137255
+    },
+    {
+      "image_id": "0000295_01000_d_0000026",
+      "total_labels": 251,
+      "missed": 217,
+      "detected": 34,
+      "miss_rate": 0.8645418326693227
+    },
+    {
+      "image_id": "0000291_03201_d_0000884",
+      "total_labels": 229,
+      "missed": 210,
+      "detected": 19,
+      "miss_rate": 0.9170305676855895
+    },
+    {
+      "image_id": "0000291_01201_d_0000874",
+      "total_labels": 212,
+      "missed": 189,
+      "detected": 23,
+      "miss_rate": 0.8915094339622641
+    },
+    {
+      "image_id": "0000129_02411_d_0000138",
+      "total_labels": 186,
+      "missed": 184,
+      "detected": 2,
+      "miss_rate": 0.989247311827957
+    },
+    {
+      "image_id": "0000291_03801_d_0000887",
+      "total_labels": 191,
+      "missed": 179,
+      "detected": 12,
+      "miss_rate": 0.93717277486911
+    },
+    {
+      "image_id": "0000291_05201_d_0000893",
+      "total_labels": 207,
+      "missed": 178,
+      "detected": 29,
+      "miss_rate": 0.8599033816425121
+    },
+    {
+      "image_id": "0000295_01200_d_0000027",
+      "total_labels": 200,
+      "missed": 175,
+      "detected": 25,
+      "miss_rate": 0.875
+    },
+    {
+      "image_id": "0000295_02900_d_0000034",
+      "total_labels": 212,
+      "missed": 173,
+      "detected": 39,
+      "miss_rate": 0.8160377358490566
+    },
+    {
+      "image_id": "0000291_00001_d_0000868",
+      "total_labels": 178,
+      "missed": 168,
+      "detected": 10,
+      "miss_rate": 0.9438202247191011
+    },
+    {
+      "image_id": "0000295_01400_d_0000028",
+      "total_labels": 189,
+      "missed": 165,
+      "detected": 24,
+      "miss_rate": 0.873015873015873
+    },
+    {
+      "image_id": "0000086_01954_d_0000005",
+      "total_labels": 173,
+      "missed": 163,
+      "detected": 10,
+      "miss_rate": 0.9421965317919075
+    },
+    {
+      "image_id": "0000291_03401_d_0000885",
+      "total_labels": 187,
+      "missed": 162,
+      "detected": 25,
+      "miss_rate": 0.8663101604278075
+    },
+    {
+      "image_id": "0000295_00600_d_0000024",
+      "total_labels": 186,
+      "missed": 158,
+      "detected": 28,
+      "miss_rate": 0.8494623655913979
+    },
+    {
+      "image_id": "0000295_02200_d_0000032",
+      "total_labels": 193,
+      "missed": 152,
+      "detected": 41,
+      "miss_rate": 0.7875647668393783
+    },
+    {
+      "image_id": "0000291_02601_d_0000881",
+      "total_labels": 178,
+      "missed": 150,
+      "detected": 28,
+      "miss_rate": 0.8426966292134831
+    },
+    {
+      "image_id": "0000291_00401_d_0000870",
+      "total_labels": 166,
+      "missed": 149,
+      "detected": 17,
+      "miss_rate": 0.8975903614457831
+    },
+    {
+      "image_id": "0000313_06601_d_0000469",
+      "total_labels": 165,
+      "missed": 146,
+      "detected": 19,
+      "miss_rate": 0.8848484848484849
+    }
+  ]
+}

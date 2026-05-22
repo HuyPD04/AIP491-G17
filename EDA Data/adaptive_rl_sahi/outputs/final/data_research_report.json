@@ -1,0 +1,62 @@
+{
+  "splits": [
+    "train",
+    "val",
+    "test"
+  ],
+  "total_images": 8629,
+  "total_labels": 457066,
+  "total_small_labels": 285028,
+  "small_label_ratio": 0.6236035933541326,
+  "split_summary": {
+    "train": {
+      "images": 6471,
+      "total_labels": 343205,
+      "small_labels": 207605,
+      "medium_labels": 116620,
+      "large_labels": 18980,
+      "avg_labels_per_image": 53.037397620151445,
+      "avg_small_labels_per_image": 32.082367485705454
+    },
+    "val": {
+      "images": 548,
+      "total_labels": 38759,
+      "small_labels": 26586,
+      "medium_labels": 11105,
+      "large_labels": 1068,
+      "avg_labels_per_image": 70.72810218978103,
+      "avg_small_labels_per_image": 48.51459854014598
+    },
+    "test": {
+      "images": 1610,
+      "total_labels": 75102,
+      "small_labels": 50837,
+      "medium_labels": 21856,
+      "large_labels": 2409,
+      "avg_labels_per_image": 46.6472049689441,
+      "avg_small_labels_per_image": 31.57577639751553
+    }
+  },
+  "density_level_counts": {
+    "high": 961,
+    "low": 2896,
+    "medium": 4772
+  },
+  "small_object_level_counts": {
+    "few_small": 2062,
+    "many_small": 3413,
+    "some_small": 3154
+  },
+  "roi_best_by_small_efficiency_counts": {
+    "center": 3373,
+    "density": 218,
+    "horizon": 4764,
+    "uncertain": 274
+  },
+  "roi_best_by_small_coverage_counts": {
+    "center": 672,
+    "density": 3327,
+    "horizon": 2527,
+    "uncertain": 2103
+  }
+}
